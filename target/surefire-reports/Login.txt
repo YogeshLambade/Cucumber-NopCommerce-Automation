@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: Login
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 2.523 s <<< FAILURE! - in Login
+Login.Successful Login with Valid Credentials  Time elapsed: 2.427 s  <<< ERROR!
+io.github.bonigarcia.wdm.config.WebDriverManagerException: java.lang.NumberFormatException: For input string: "public"
+Caused by: java.lang.NumberFormatException: For input string: "public"
+
+Login.Successful Login with Valid Credentials  Time elapsed: 2.429 s  <<< ERROR!
+java.lang.NullPointerException
+
