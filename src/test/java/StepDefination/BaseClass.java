@@ -15,7 +15,7 @@ import Utilities.ReadConfig;
 public class BaseClass {
 
 	
-	public WebDriver driver;
+	public static WebDriver driver;
 	public LoginPage loginpg;
 	public AddNewCustomerPage addNewCustPg;
 	public SearchCustomerPage Searchcustpg;
